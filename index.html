@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barista Mourouj — Project Initiation Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <strong>BARISTA MOUROUJ</strong>
+          <span>PROJECT INITIATION SIMULATOR</span>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span class="assumption">CLASSROOM SIMULATION</span>
+        <button id="restartBtn" class="ghost-btn">Restart</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">CHAPTER 3 · INITIATING PROJECTS</p>
+          <h1>Build the project.<br><span>See the consequences.</span></h1>
+          <p>One class. One project. Every majority decision changes the conditions for the next one.</p>
+        </div>
+        <div class="hero-facts">
+          <div><small>PROJECT</small><b>Barista Mourouj Branch Opening</b></div>
+          <div><small>TARGET OPENING</small><b>01 Jul 2027</b></div>
+          <div><small>BUDGET CEILING</small><b>650,000 TND</b></div>
+        </div>
+      </section>
+
+      <section class="progress-card">
+        <div class="progress-head">
+          <div>
+            <span class="stage-label" id="stageLabel">STAGE 1</span>
+            <h2 id="stageTitle">Pre-initiation</h2>
+          </div>
+          <div class="stage-count" id="stageCount">1 / 5</div>
+        </div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+        <div class="chapter-note" id="chapterNote">Determine constraints, sponsor, project manager and organizational expectations before formal initiation.</div>
+      </section>
+
+      <section class="dashboard-grid">
+        <aside class="metrics-panel">
+          <div class="panel-title"><span>PROJECT STATE</span><span class="live-dot">● LIVE</span></div>
+          <div class="metric"><div class="metric-top"><span>CapEx Budget</span><b id="budgetMetric">650k TND</b></div><div class="meter"><i id="budgetBar" style="width: 50%;"></i></div></div>
+          <div class="metric"><div class="metric-top"><span>Schedule</span><b id="scheduleMetric">26 Weeks</b></div><div class="meter"><i id="scheduleBar" style="width: 50%;"></i></div></div>
+          <div class="metric"><div class="metric-top"><span>Stakeholder Support</span><b id="supportMetric">50 / 100</b></div><div class="meter"><i id="supportBar" style="width: 50%;"></i></div></div>
+          <div class="metric"><div class="metric-top"><span>Quality Audit</span><b id="qualityMetric">90%</b></div><div class="meter"><i id="qualityBar" style="width: 90%;"></i></div></div>
+          <div class="metric"><div class="metric-top"><span>Overall Risk</span><b id="riskMetric">Low</b></div><div class="risk-pill low" id="riskPill">LOW</div></div>
+          <div class="mini-box"><small>CURRENT DECISIONS</small><div id="decisionMini">0 / 5</div></div>
+        </aside>
+
+        <section class="decision-panel">
+          <div class="question-wrap">
+            <span class="question-number" id="questionNumber">D1</span>
+            <h2 id="question">Select Project Sponsor</h2>
+            <p id="questionHint">Choose the executive sponsor responsible for high-level project authorization.</p>
+          </div>
+          <div class="options" id="options"></div>
+          <div class="vote-footer">
+            <button id="voteBtn" class="primary-btn" disabled>Record class majority →</button>
+            <span>Presenter enters the class vote. No answer is objectively “correct”.</span>
+          </div>
+          <div id="consequence" class="consequence hidden"></div>
+        </section>
+
+        <aside class="output-panel">
+          <div class="panel-tabs">
+            <button class="tab active" data-tab="log">Decision log</button>
+            <button class="tab" data-tab="docs">Outputs</button>
+          </div>
+          <div id="tab-log" class="tab-content">
+            <div id="decisionLog" class="log-list">
+              <div class="empty">Decisions will appear here as the class progresses.</div>
+            </div>
+          </div>
+          <div id="tab-docs" class="tab-content hidden">
+            <div class="doc-card"><span>BUSINESS CASE</span><b id="docBusiness">In progress</b></div>
+            <div class="doc-card"><span>STAKEHOLDER REGISTER</span><b id="docStake">Not generated</b></div>
+            <div class="doc-card"><span>PROJECT CHARTER</span><b id="docCharter">Progressive</b></div>
+            <div class="doc-card"><span>RISK REGISTER</span><b id="docRisk">Initial risks loaded</b></div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="finalSection" class="final-section hidden">
+        <div class="final-head">
+          <div>
+            <p class="eyebrow">SIMULATION COMPLETE</p>
+            <h2 id="finalTitle">Project Evaluation</h2>
+            <p id="finalNarrative"></p>
+          </div>
+          <div id="finalStatus" class="final-status"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
