@@ -200,3 +200,11 @@ function restart() {
   updateLog();
   render();
 }
+let simulatorKnowledge = [];
+
+fetch('knowledge.json')
+  .then(res => res.json())
+  .then(data => {
+    simulatorKnowledge = data;
+    console.log("Loaded Barista Mourouj Specification Base:", simulatorKnowledge);
+  });
