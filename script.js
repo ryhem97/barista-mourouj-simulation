@@ -202,7 +202,7 @@ function restart() {
 }
 let simulatorKnowledge = [];
 
-fetch('knowledge.json')
+fetch('algo.json')
   .then(res => res.json())
   .then(data => {
     simulatorKnowledge = data;
