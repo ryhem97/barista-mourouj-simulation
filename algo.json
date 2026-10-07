@@ -1,0 +1,345 @@
+[
+  {
+    "id": "A1",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What has already been approved before the simulation begins?",
+    "answer": "The project has passed formal selection (the Chapter 3 'GO'). Not yet determined: constraints, sponsor, PM, expectations, division into smaller projects, and the business case's recommended option.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "A2",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What is the exact project name?",
+    "answer": "Barista Mourouj Branch Opening Project.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "A3",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What is the project start date?",
+    "answer": "4 January 2027, fictional.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "A4",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What is the initial target opening/completion date?",
+    "answer": "1 July 2027.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "A5",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What is the initial budget ceiling?",
+    "answer": "650,000 TND. No real Barista capex found.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "A6",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What initial scope is already fixed?",
+    "answer": "Fixed: Mourouj location, Barista brand and design standards, permits.",
+    "type": "GIVEN / SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "A7",
+    "section": "A. Project Setup & Initial Conditions",
+    "question": "What remains undecided at the start?",
+    "answer": "Sponsor, PM, division into smaller projects, scope package, recommended option, stakeholder strategy, approach, kick-off decisions.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "B1",
+    "section": "B. Pre-Initiation",
+    "question": "What scope, time and cost constraints are students given?",
+    "answer": "Opening 1 July 2027, budget ceiling 650,000 TND, brand standards fixed.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "B2",
+    "section": "B. Pre-Initiation",
+    "question": "What Project Sponsor options should students choose from?",
+    "answer": "1. General Manager: full authority, little time. 2. Head of Development: expansion expertise, weaker on daily operations. 3. Operations Director: knows quality standards, less investment experience.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "B3",
+    "section": "B. Pre-Initiation",
+    "question": "What Project Manager options should students choose from?",
+    "answer": "1. Existing branch manager: knows standards, stretched. 2. External project consultant: neutral and methodical, no brand culture. 3. Area manager: authority across branches, divided attention.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "B4",
+    "section": "B. Pre-Initiation",
+    "question": "What project-management process/organizational expectations are given?",
+    "answer": "Barista's organizational standards, monthly reports to a steering committee, and keeping the scope realistic. The meeting with the PM to review process and expectations follows Chapter 3.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "B5",
+    "section": "B. Pre-Initiation",
+    "question": "Should the project be divided into smaller projects?",
+    "answer": "Options: (a) One project; (b) Phase I Mourouj study (3 months, 40,000 TND) then Phase II fit-out and opening; (c) Three projects: study, fit-out, operations readiness.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "B6",
+    "section": "B. Pre-Initiation",
+    "question": "What exact pre-initiation votes will students make?",
+    "answer": "V1 Sponsor, V2 PM, V3 Division into smaller projects.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "C1",
+    "section": "C. Business Case",
+    "question": "What is the project background?",
+    "answer": "Barista's, founded 2011, has outlets in Greater Tunis and Sousse, none in Mourouj.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C2",
+    "section": "C. Business Case",
+    "question": "What problem or opportunity is the project responding to?",
+    "answer": "Opportunity: A similar concept (Plug) is always overcrowded, which suggests demand exceeds supply.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C3",
+    "section": "C. Business Case",
+    "question": "What is the primary business objective?",
+    "answer": "Open on time, within budget, with Barista-standard quality.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "C4",
+    "section": "C. Business Case",
+    "question": "What secondary objectives are relevant?",
+    "answer": "Choose one by vote: strengthen presence among young customers; protect brand consistency; fastest payback.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "C5",
+    "section": "C. Business Case",
+    "question": "What alternatives are being considered?",
+    "answer": "Company-owned branch; franchisee branch; smaller-format branch. Optional 'do nothing' baseline.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "C6",
+    "section": "C. Business Case",
+    "question": "Why is each alternative plausible?",
+    "answer": "Own: Control of quality. Franchise: Lower investment, but reports show uneven quality across outlets. Small format: Lower risk, less capacity.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C7",
+    "section": "C. Business Case",
+    "question": "What preliminary requirements must the project satisfy?",
+    "answer": "Brand-standard interior and equipment, trained staff, Wi-Fi, specialty menu with light food, permits.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C8",
+    "section": "C. Business Case",
+    "question": "What financial/budget information belongs in the business case?",
+    "answer": "650,000 TND ceiling; revenue, cost, and payback figures are N/A, so the team sets one assumption per option.",
+    "type": "OPEN"
+  },
+  {
+    "id": "C9",
+    "section": "C. Business Case",
+    "question": "What schedule information belongs in the business case?",
+    "answer": "4 January to 1 July 2027.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "C10",
+    "section": "C. Business Case",
+    "question": "What assumptions and constraints belong in the business case?",
+    "answer": "Assumptions: Demand exceeds supply, stable supplier lead times. Constraints: Budget, date, brand standards, law.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C11",
+    "section": "C. Business Case",
+    "question": "What major risks are known at business-case stage?",
+    "answer": "Plug retains customers, uneven quality, fit-out delay, cost overrun, hiring shortfall.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "C12",
+    "section": "C. Business Case",
+    "question": "What exact business-case decisions should students vote on?",
+    "answer": "Votes: BC1 recommended option, BC2 secondary objective.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "D1",
+    "section": "D. Stakeholders",
+    "question": "Who are all relevant stakeholders?",
+    "answer": "Internal: Champion, sponsor, PM, project team, support staff, internal customers (branch team), top management, functional managers. External: Mourouj customers, competitor Plug, suppliers, Glovo, municipality/permit officials, neighbours. If franchised: Franchisee and lender.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "D2",
+    "section": "D. Stakeholders",
+    "question": "What is each stakeholder's role/relationship to the project?",
+    "answer": "Defined individually based on internal/external classifications.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "D3",
+    "section": "D. Stakeholders",
+    "question": "What is each stakeholder's interest?",
+    "answer": "HQ wants return and brand; customers want atmosphere and price; Plug wants market share; neighbours want no nuisance; suppliers want contracts.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "D4",
+    "section": "D. Stakeholders",
+    "question": "What is each stakeholder's influence/power?",
+    "answer": "Level of Interest and Level of Influence rated on High / Medium / Low scale.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "D7",
+    "section": "D. Stakeholders",
+    "question": "What stakeholder-management decision should the class make?",
+    "answer": "Vote on stakeholder strategy: engage broadly now / targeted only / minimal.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "D8",
+    "section": "D. Stakeholders",
+    "question": "How does each decision affect stakeholder support?",
+    "answer": "Broad engagement raises support but costs time; minimal saves time and risks resistance.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "E1",
+    "section": "E. Project Scope",
+    "question": "What scope components are possible?",
+    "answer": "Core branch (fit-out, staff, menu, equipment); hot kitchen; terrace; delivery through Glovo; launch campaign on social media.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "E2",
+    "section": "E. Project Scope",
+    "question": "Which scope elements are fixed?",
+    "answer": "Core branch to brand standards, permits.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "E3",
+    "section": "E. Project Scope",
+    "question": "Which scope elements are decision points?",
+    "answer": "Kitchen, terrace, Glovo delivery, launch campaign: yes/no each.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "E5",
+    "section": "E. Project Scope",
+    "question": "What is explicitly OUT OF SCOPE?",
+    "answer": "Other branches, brand redesign, roasting facility, a Barista app, unselected optional components.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "F1",
+    "section": "F. Constraints & Trade-offs",
+    "question": "What is the approved budget constraint?",
+    "answer": "650,000 TND ceiling (+10% tolerance max).",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "F2",
+    "section": "F. Constraints & Trade-offs",
+    "question": "What is the approved schedule constraint?",
+    "answer": "1 July 2027 target (maximum 4 weeks late).",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "F4",
+    "section": "F. Constraints & Trade-offs",
+    "question": "Which constraint has priority if trade-offs occur?",
+    "answer": "When time and cost are fixed, scope has the most flexibility.",
+    "type": "OPEN"
+  },
+  {
+    "id": "F6",
+    "section": "F. Constraints & Trade-offs",
+    "question": "Which combinations of decisions should trigger inconsistency warnings?",
+    "answer": "1. Full scope with tight budget. 2. Kitchen and terrace with a 4-week limit. 3. External PM without a training plan.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "G1",
+    "section": "G. Deliverables",
+    "question": "What are the major project deliverables?",
+    "answer": "Mandatory: Fitted-out branch, trained team, equipment and menu, permits. Optional: Kitchen, terrace, delivery setup, launch campaign.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "H2",
+    "section": "H. Success Criteria",
+    "question": "What target must be met for each criterion?",
+    "answer": "Opens by 1 July (+4 weeks max), spend at most 715,000 TND (including tolerance), brand audit score at least 90%.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "I1",
+    "section": "I. Project Approach",
+    "question": "What project-approach options should students choose from?",
+    "answer": "(a) Internal-led: Barista's operations team does design, fit-out, and staffing. (b) Outsourced fit-out: Contractors build, Barista supervises/trains. (c) Mixed internal and outsourced labor.",
+    "type": "DECIDE"
+  },
+  {
+    "id": "J1",
+    "section": "J. Risk Model",
+    "question": "What are the initial project risks?",
+    "answer": "Plug retains customers, uneven quality, fit-out delay, cost overrun, hiring shortfall, permit delay.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "J8",
+    "section": "J. Risk Model",
+    "question": "What risk conditions trigger a warning/AT RISK status?",
+    "answer": "AT RISK is triggered when any risk reaches High probability and High impact.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "L3",
+    "section": "L. Kick-Off Meeting",
+    "question": "What is the exact kick-off agenda and date?",
+    "answer": "Agenda: Introductions, project background, review business case & charter, organizational structure, scope/time/cost goals, important topics, action items, date of next meeting. Held 18 January 2027.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "M1",
+    "section": "M. Decision Tree & Simulation Logic",
+    "question": "What is the chronological order of student decisions?",
+    "answer": "D1 Sponsor -> D2 PM -> D3 Division -> D4 Recommended Option -> D5 Secondary Objective -> D6 Stakeholder Strategy -> D7 Scope -> D8 Constraint Priority -> D9 Approach -> D10 Kick-off Scope -> D11 Roles -> D12 Audit.",
+    "type": "SIMULATION ASSUMPTION"
+  },
+  {
+    "id": "O4",
+    "section": "O. Final Project Evaluation",
+    "question": "What final project-status categories exist?",
+    "answer": "On track, At risk, Rework required.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "O5",
+    "section": "O. Final Project Evaluation",
+    "question": "What causes the project to require rework?",
+    "answer": "Budget exceeds +10% (>715,000 TND), completion date exceeds +4 weeks, or a mandatory criterion (brand audit/permits) fails.",
+    "type": "GIVEN"
+  },
+  {
+    "id": "P4",
+    "section": "P. Outputs & Visual Requirements",
+    "question": "What visual requirements are fixed for the simulator?",
+    "answer": "Font: Glacial Indifference. Colors: #3e7fd5, #f3f6fb, black/white. Elements: Shadows, no gradients.",
+    "type": "GIVEN"
+  }
+]
